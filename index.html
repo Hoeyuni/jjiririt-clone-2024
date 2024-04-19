@@ -8,34 +8,39 @@
   </head>
 
   <body>
+    <a href="#" class="logo">
+      <span class="logo-jjiririt">찌리릿</span>
+      <span class="logo-beta">Beta</span>
+    </a>
+
     <div class="toolbar">
-      <div class=toolbar__column">
-        <div class="toolbar__column-munu">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="toolbar__column-logo">
-          <span class="toolbar__column-logo-jjiririt">찌리릿</span>
-          <span class="toolbar__column-logo-beta">Beta</span>
-        </div>
-      </div>
-
-      <div class="toolbar__column">
+      <form class="toolbar__search">
         <input type="text" placeholder="스트리머, 게임 영상 검색" />
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
+        <button class="toolbar__search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
 
-      <div class="toolbar__column">
-        <div class="toolbar__column-ticket">
-          <i class="fa-solid fa-ticket-simple"></i>
+      <div class="toolbar__icons">
+        <div class="toolbar__icons-ticket">
+          <i class="fa-solid fa-ticket-simple fa-lg"></i>
         </div>
-        <div class="toolbar__column-darkmode">
-          <i class="fa-regular fa-moon"></i>
+        <div class="toolbar__icons-darkmode">
+          <i class="fa-regular fa-moon fa-lg"></i>
         </div>
-        <button>
-          <span class="toolbar__column-login">로그인</span>
+        <button class="toolbar__icons-login">
+          <span>로그인</span>
         </button>
       </div>
     </div>
+
+    <div class="sidebar">
+      <div class="sidebar__column-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="main-screen"></div>
 
     <script
       src="https://kit.fontawesome.com/47cc7f595b.js"
