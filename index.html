@@ -6,18 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>찌리릿 - JIRRT</title>
   </head>
+
   <body>
-    <div class="menu">
-      <div class="menu__column">
-        <i class="fa-solid fa-bars"></i>
-        <span class="logo">찌리릿</span>
+    <div class="toolbar">
+      <div class=toolbar__column">
+        <div class="toolbar__column-munu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="toolbar__column-logo">
+          <span class="toolbar__column-logo-jjiririt">찌리릿</span>
+          <span class="toolbar__column-logo-beta">Beta</span>
+        </div>
       </div>
-      <div class="menu__column">
+
+      <div class="toolbar__column">
         <input type="text" placeholder="스트리머, 게임 영상 검색" />
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
-      <div class="menu__column"></div>
+
+      <div class="toolbar__column">
+        <div class="toolbar__column-ticket">
+          <i class="fa-solid fa-ticket-simple"></i>
+        </div>
+        <div class="toolbar__column-darkmode">
+          <i class="fa-regular fa-moon"></i>
+        </div>
+        <button>
+          <span class="toolbar__column-login">로그인</span>
+        </button>
+      </div>
     </div>
+
     <script
       src="https://kit.fontawesome.com/47cc7f595b.js"
       crossorigin="anonymous"
