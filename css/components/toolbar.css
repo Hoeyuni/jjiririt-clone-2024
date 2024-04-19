@@ -1,0 +1,87 @@
+.toolbar {
+  z-index: 98;
+  position: fixed;
+  /* display: flex; */
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+}
+
+.toolbar__search {
+  left: 50%;
+  top: 11px;
+  width: 400px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.toolbar__search input {
+  height: 36.4px;
+  width: 400px;
+  padding: 0 8px 0 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.toolbar__search input::placeholder {
+  font-size: 15px;
+  opacity: 0.3;
+  height: 100%;
+}
+
+.toolbar__search button:hover {
+  cursor: pointer;
+}
+
+.toolbar__search button {
+  width: 30px;
+  height: 35px;
+  right: 15px;
+  position: absolute;
+  background-color: white;
+  border: none;
+}
+
+.toolbar__icons {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.toolbar__icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.toolbar__icons-ticket,
+.toolbar__icons-darkmode,
+.toolbar__icons-login:hover {
+  cursor: pointer;
+}
+.toolbar__icons-ticket,
+.toolbar__icons-darkmode {
+  width: 40px;
+  height: 40px;
+}
+
+.toolbar__icons-login {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  height: 30px;
+  padding: 0 13px;
+  margin-left: 8px;
+}
