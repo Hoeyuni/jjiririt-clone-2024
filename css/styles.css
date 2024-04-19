@@ -4,6 +4,7 @@
 @import "variables.css";
 
 /* Components */
-@import "toolbar.css";
+@import "components/toolbar.css";
+@import "components/logo.css";
 
 /* Screens */

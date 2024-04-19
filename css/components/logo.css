@@ -1,0 +1,20 @@
+.logo {
+  display: block;
+  position: fixed;
+  position: relative;
+  left: 60px;
+  padding: 17px 0px;
+}
+
+.logo-jjiririt {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.logo-beta {
+  color: #ff5454;
+  position: absolute;
+  top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
