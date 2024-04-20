@@ -1,0 +1,163 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 240px;
+  padding-bottom: 30px;
+}
+
+.sidebar-icon {
+  margin-right: 13px;
+}
+
+.sidebar:first-child {
+  height: 60px;
+  display: block;
+}
+
+.sidebar__column-menu {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 4px 10px 19px;
+  position: relative;
+}
+
+/* .sidebar__column-menu:hover {
+  background-color: #f2f2f2;
+} */
+
+.sidebar__column-menu i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__column-content,
+.sidebar__column-recommend,
+.sidebar__column-service {
+  padding: 5px 18px 10px;
+}
+
+.sidebar__column-content-live,
+.sidebar__column-content-replay,
+.sidebar__column-content-category,
+.sidebar__column-service-list-navergame,
+.sidebar__column-service-list-esports,
+.sidebar__column-service-list-original,
+.sidebar__column-service-list-pcgame,
+.sidebar__column-service-list-lounge {
+  align-items: center;
+  display: flex;
+  padding: 5px 8px;
+  width: 100%;
+  height: 36px;
+}
+
+.sidebar__column-content-live span,
+.sidebar__column-content-replay span,
+.sidebar__column-content-category span,
+.sidebar__column-service-list-navergame span,
+.sidebar__column-service-list-esports span,
+.sidebar__column-service-list-original span,
+.sidebar__column-service-list-pcgame span,
+.sidebar__column-service-list-lounge span {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar__column-recommend {
+  padding: 11px 18px 5px;
+}
+
+.sidebar__column-recommend-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 6px 7px 8px;
+  width: 100%;
+}
+
+.sidebar__column-recommend-title span {
+  color: var(--gray);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sidebar__colmun-recommend-title-icons button {
+  color: var(--gray);
+  background-color: white;
+  border: none;
+}
+
+/* .sidebar__colmun-recommend-title-icons button;
+ */
+
+.sidebar__column-recommend-list {
+  dispay: flex;
+  padding: 0px 8px 5px 5px;
+  flex-direction: column;
+}
+.sidebar__column-recommend-list i {
+  margin-right: 10px;
+}
+
+.sidebar__column-recommend-list-1,
+.sidebar__column-recommend-list-2,
+.sidebar__column-recommend-list-3,
+.sidebar__column-recommend-list-4,
+.sidebar__column-recommend-list-5 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 4px 0px;
+}
+
+.sidebar__column-recommend-list-1-info,
+.sidebar__column-recommend-list-2-info,
+.sidebar__column-recommend-list-3-info,
+.sidebar__column-recommend-list-4-info,
+.sidebar__column-recommend-list-5-info {
+  display: block;
+  flex-direction: column;
+}
+
+.sidebar__column-recommend-list-1-info-name,
+.sidebar__column-recommend-list-2-info-name,
+.sidebar__column-recommend-list-3-info-name,
+.sidebar__column-recommend-list-4-info-name,
+.sidebar__column-recommend-list-5-info-name {
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sidebar__column-recommend-list-1-info-category,
+.sidebar__column-recommend-list-2-info-category,
+.sidebar__column-recommend-list-3-info-category,
+.sidebar__column-recommend-list-4-info-category,
+.sidebar__column-recommend-list-5-info-category {
+  display: block;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.sidebar__column-recommend-list-1-count,
+.sidebar__column-recommend-list-2-count,
+.sidebar__column-recommend-list-3-count,
+.sidebar__column-recommend-list-4-count,
+.sidebar__column-recommend-list-5-count {
+  color: red;
+  flex: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  margin-left: 8px;
+  padding-left: 8px;
+  position: relative;
+}
