@@ -1,34 +1,30 @@
 .sidebar {
+  position: fixed;
+  width: 240px;
+  box-sizing: content-box;
+}
+
+.sidebar__wrapper {
   display: flex;
   flex-direction: column;
-  position: relative;
+  width: 100%;
   height: 100%;
-  width: 240px;
-  padding-bottom: 30px;
+  position: relative;
 }
 
-.sidebar-icon {
-  margin-right: 13px;
-}
-
-.sidebar:first-child {
+.sidebar__header {
+  flex: none;
   height: 60px;
-  display: block;
 }
 
-.sidebar__column-menu {
+.sidebar__header-button {
   background-color: white;
   border: none;
-  cursor: pointer;
   padding: 10px 4px 10px 19px;
   position: relative;
 }
 
-/* .sidebar__column-menu:hover {
-  background-color: #f2f2f2;
-} */
-
-.sidebar__column-menu i {
+.sidebar__header-button i {
   width: 40px;
   height: 40px;
   display: flex;
@@ -36,122 +32,97 @@
   align-items: center;
 }
 
-.sidebar__column-content,
-.sidebar__column-recommend,
-.sidebar__column-service {
+.sidebar__section {
+  padding-bottom: 30px;
+  scrollbar-width: none;
+}
+
+.sidebar__service {
   padding: 5px 18px 10px;
 }
 
-.sidebar__column-content-live,
-.sidebar__column-content-replay,
-.sidebar__column-content-category,
-.sidebar__column-service-list-navergame,
-.sidebar__column-service-list-esports,
-.sidebar__column-service-list-original,
-.sidebar__column-service-list-pcgame,
-.sidebar__column-service-list-lounge {
-  align-items: center;
-  display: flex;
+.sidebar__service-list {
   padding: 5px 8px;
-  width: 100%;
-  height: 36px;
-}
-
-.sidebar__column-content-live span,
-.sidebar__column-content-replay span,
-.sidebar__column-content-category span,
-.sidebar__column-service-list-navergame span,
-.sidebar__column-service-list-esports span,
-.sidebar__column-service-list-original span,
-.sidebar__column-service-list-pcgame span,
-.sidebar__column-service-list-lounge span {
-  text-align: center;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.sidebar__column-recommend {
-  padding: 11px 18px 5px;
-}
-
-.sidebar__column-recommend-title {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1px 6px 7px 8px;
+  font-size: 13px;
+  font-weight: 600;
   width: 100%;
+  height: 26px;
 }
 
-.sidebar__column-recommend-title span {
-  color: var(--gray);
+.sidebar__service-list i {
+  margin-right: 13px;
+  font-size: 20px;
+}
+
+.sidebar__service-text {
+  display: block;
+}
+
+.sidebar__recommend {
+}
+
+.sidebar__recommend-wrapper {
+  padding: 11px 18px 5px;
+  position: relative;
+}
+
+.sidebar__recommend-header {
+  padding: 1px 6px 7px 8px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 22px;
+}
+
+.sidebar__recommend-header-title {
+  flex: 1 1;
   font-size: 12px;
   font-weight: 600;
+  text-align: left;
 }
 
-.sidebar__colmun-recommend-title-icons button {
-  color: var(--gray);
+.sidebar__recommend-header button {
   background-color: white;
   border: none;
 }
 
-/* .sidebar__colmun-recommend-title-icons button;
- */
-
-.sidebar__column-recommend-list {
-  dispay: flex;
-  padding: 0px 8px 5px 5px;
-  flex-direction: column;
-}
-.sidebar__column-recommend-list i {
-  margin-right: 10px;
+.sidebar__recoomend-list {
+  padding: 0 0 5px;
 }
 
-.sidebar__column-recommend-list-1,
-.sidebar__column-recommend-list-2,
-.sidebar__column-recommend-list-3,
-.sidebar__column-recommend-list-4,
-.sidebar__column-recommend-list-5 {
+.sidebar__recommend-list-channel {
+  padding: 4px 8px 4px 5px;
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
-  padding: 4px 0px;
 }
 
-.sidebar__column-recommend-list-1-info,
-.sidebar__column-recommend-list-2-info,
-.sidebar__column-recommend-list-3-info,
-.sidebar__column-recommend-list-4-info,
-.sidebar__column-recommend-list-5-info {
+.sidebar__recoomend-list-channel-profile {
+  margin: 2px;
+}
+
+.sidebar__recommend-list-channel-info {
+  margin-left: 10px;
+  flex: 1 1 0%;
+}
+
+.sidebar__recommend-list-channel-info-name {
   display: block;
-  flex-direction: column;
-}
-
-.sidebar__column-recommend-list-1-info-name,
-.sidebar__column-recommend-list-2-info-name,
-.sidebar__column-recommend-list-3-info-name,
-.sidebar__column-recommend-list-4-info-name,
-.sidebar__column-recommend-list-5-info-name {
-  display: inline-flex;
   font-size: 13px;
+  line-height: 16px;
   font-weight: 600;
 }
 
-.sidebar__column-recommend-list-1-info-category,
-.sidebar__column-recommend-list-2-info-category,
-.sidebar__column-recommend-list-3-info-category,
-.sidebar__column-recommend-list-4-info-category,
-.sidebar__column-recommend-list-5-info-category {
+.sidebar__recommend-list-channel-info-category {
   display: block;
   font-size: 11px;
+  line-height: 13px;
   margin-top: 3px;
 }
 
-.sidebar__column-recommend-list-1-count,
-.sidebar__column-recommend-list-2-count,
-.sidebar__column-recommend-list-3-count,
-.sidebar__column-recommend-list-4-count,
-.sidebar__column-recommend-list-5-count {
+.sidebar__recommend-list-channel-count {
   color: red;
   flex: none;
   font-size: 12px;
@@ -160,4 +131,34 @@
   margin-left: 8px;
   padding-left: 8px;
   position: relative;
+}
+
+.sidebar__recommend-list-more {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.sidebar__recommend-list-morebtn {
+  padding: 0px 13px 0px 19px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  font-size: 10px;
+  font-weight: 600;
+  height: 29px;
+  line-height: 16px;
+}
+
+.sidebar__servie-go {
+  padding-top: 18px;
+}
+.sidebar__service-title {
+  padding: 0px 8px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13px;
+}
+
+.sidebar__service-title i {
+  margin: -1px 0 -1px 3px;
 }
