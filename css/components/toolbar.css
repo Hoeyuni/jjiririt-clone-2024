@@ -1,5 +1,5 @@
 .toolbar {
-  z-index: 98;
+  z-index: 99;
   position: fixed;
   /* display: flex; */
   justify-content: center;
@@ -33,10 +33,6 @@
   height: 100%;
 }
 
-.toolbar__search button:hover {
-  cursor: pointer;
-}
-
 .toolbar__search button {
   width: 30px;
   height: 35px;
@@ -66,8 +62,9 @@
 
 .toolbar__icons-ticket,
 .toolbar__icons-darkmode,
-.toolbar__icons-login:hover {
-  cursor: pointer;
+.toolbar__icons-login {
+  background-color: white;
+  border: none;
 }
 .toolbar__icons-ticket,
 .toolbar__icons-darkmode {
