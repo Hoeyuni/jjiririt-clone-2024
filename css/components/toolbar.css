@@ -48,6 +48,9 @@
   border: none;
 }
 
+.toolbar__search button:hover {
+  cursor: pointer;
+}
 .toolbar__icons {
   box-sizing: border-box;
   display: flex;
