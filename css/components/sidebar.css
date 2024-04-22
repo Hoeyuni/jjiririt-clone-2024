@@ -33,6 +33,11 @@
   align-items: center;
 }
 
+.sidebar__header-button i:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
 .sidebar__section {
   flex: 1 1;
   overflow: auto;
@@ -52,6 +57,12 @@
   font-weight: 600;
   width: 100%;
   height: 26px;
+}
+
+.sidebar__service-list:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
 .sidebar__service-list i {
@@ -91,6 +102,12 @@
   border: none;
 }
 
+.sidebar__recommend-header button:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
 .sidebar__recoomend-list {
   padding: 0 0 5px;
 }
@@ -100,6 +117,12 @@
   display: flex;
   align-items: center;
   position: relative;
+}
+
+.sidebar__recommend-list-channel:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
 .sidebar__recoomend-list-channel-profile {
@@ -150,6 +173,12 @@
   font-weight: 600;
   height: 29px;
   line-height: 16px;
+}
+
+.sidebar__recommend-list-morebtn:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
 .sidebar__servie-go {
