@@ -131,10 +131,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-a:hover,
-button:hover {
-  cursor: pointer;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-}
