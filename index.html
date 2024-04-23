@@ -8,183 +8,298 @@
   </head>
 
   <body>
-    <a href="#" class="logo">
-      <span class="logo-jjiririt">찌리릿</span>
-      <span class="logo-beta">Beta</span>
-    </a>
+    <div class="main">
+      <a href="#" class="logo">
+        <span class="logo-jjiririt">찌리릿</span>
+        <span class="logo-beta">Beta</span>
+      </a>
 
-    <div class="toolbar">
-      <form class="toolbar__search">
-        <input type="text" placeholder="스트리머, 게임 영상 검색" />
-        <button class="toolbar__search-btn">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
-
-      <div class="toolbar__icons">
-        <button class="toolbar__icons-ticket">
-          <i class="fa-solid fa-ticket-simple fa-lg"></i>
-        </button>
-        <button class="toolbar__icons-darkmode">
-          <i class="fa-regular fa-moon fa-lg"></i>
-        </button>
-        <button class="toolbar__icons-login">
-          <span>로그인</span>
-        </button>
-      </div>
-    </div>
-
-    <div class="sidebar">
-      <div class="sidebar__wrapper">
-        <header class="sidebar__header">
-          <button tpye="button" class="sidebar__header-button">
-            <i class="fa-solid fa-bars fa-lg"></i>
+      <div class="toolbar">
+        <form class="toolbar__search">
+          <input type="text" placeholder="스트리머, 게임 영상 검색" />
+          <button class="toolbar__search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-        </header>
-        <section class="sidebar__section">
-          <div class="sidebar__service">
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-video fa-lg"></i>
-              <span class="sidebar__service-text">전체 라이브</span>
-            </a>
-            <a class="sidebar__service-list">
-              <i class="fa-regular fa-circle-play fa-lg"></i>
-              <span class="sidebar__service-text">다시보기</span>
-            </a>
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-table-cells-large fa-lg"></i>
-              <span class="sidebar__service-text">카테고리</span>
-            </a>
-          </div>
-          <nav class="sidebar__recommend">
-            <div class="sidebar__recommend-wrapper">
-              <div class="sidebar__recommend-header">
-                <h2 class="sidebar__recommend-header-title">추천 채널</h2>
-                <button class="sidebar__recommend-header-refresh">
-                  <i class="fa-solid fa-rotate-right"></i>
-                </button>
-                <button class="sidebar__recommend-header-close">
-                  <i class="fa-solid fa-angle-up"></i>
-                </button>
-              </div>
-              <div class="sidebar__recommend-list">
-                <a class="sidebar__recommend-list-channel">
-                  <div class="sidebar__recommend-list-channel-profile">
-                    <i class="fa-solid fa-circle fa-2x"></i>
-                  </div>
-                  <div class="sidebar__recommend-list-channel-info">
-                    <span class="sidebar__recommend-list-channel-info-name"
-                      >ABCED</span
-                    >
-                    <span class="sidebar__recommend-list-channel-info-category"
-                      >abced</span
-                    >
-                  </div>
-                  <span class="sidebar__recommend-list-channel-count"
-                    >• 500</span
-                  >
-                </a>
-                <a class="sidebar__recommend-list-channel">
-                  <div class="sidebar__recommend-list-channel-profile">
-                    <i class="fa-solid fa-circle fa-2x"></i>
-                  </div>
-                  <div class="sidebar__recommend-list-channel-info">
-                    <span class="sidebar__recommend-list-channel-info-name"
-                      >ABCED</span
-                    >
-                    <span class="sidebar__recommend-list-channel-info-category"
-                      >abced</span
-                    >
-                  </div>
-                  <span class="sidebar__recommend-list-channel-count"
-                    >• 400</span
-                  >
-                </a>
-                <a class="sidebar__recommend-list-channel">
-                  <div class="sidebar__recommend-list-channel-profile">
-                    <i class="fa-solid fa-circle fa-2x"></i>
-                  </div>
-                  <div class="sidebar__recommend-list-channel-info">
-                    <span class="sidebar__recommend-list-channel-info-name"
-                      >ABCED</span
-                    >
-                    <span class="sidebar__recommend-list-channel-info-category"
-                      >abced</span
-                    >
-                  </div>
-                  <span class="sidebar__recommend-list-channel-count"
-                    >• 300</span
-                  >
-                </a>
-                <a class="sidebar__recommend-list-channel">
-                  <div class="sidebar__recommend-list-channel-profile">
-                    <i class="fa-solid fa-circle fa-2x"></i>
-                  </div>
-                  <div class="sidebar__recommend-list-channel-info">
-                    <span class="sidebar__recommend-list-channel-info-name"
-                      >ABCED</span
-                    >
-                    <span class="sidebar__recommend-list-channel-info-category"
-                      >abced</span
-                    >
-                  </div>
-                  <span class="sidebar__recommend-list-channel-count"
-                    >• 200</span
-                  >
-                </a>
-                <a class="sidebar__recommend-list-channel">
-                  <div class="sidebar__recommend-list-channel-profile">
-                    <i class="fa-solid fa-circle fa-2x"></i>
-                  </div>
-                  <div class="sidebar__recommend-list-channel-info">
-                    <span class="sidebar__recommend-list-channel-info-name"
-                      >ABCED</span
-                    >
-                    <span class="sidebar__recommend-list-channel-info-category"
-                      >abced</span
-                    >
-                  </div>
-                  <span class="sidebar__recommend-list-channel-count"
-                    >• 100</span
-                  >
-                </a>
-                <div class="sidebar__recommend-list-more">
-                  <button type="button" class="sidebar__recommend-list-morebtn">
-                    더보기 <i class="fa-solid fa-chevron-down"></i>
+        </form>
+
+        <div class="toolbar__icons">
+          <button class="toolbar__icons-ticket">
+            <i class="fa-solid fa-ticket-simple fa-lg"></i>
+          </button>
+          <button class="toolbar__icons-darkmode">
+            <i class="fa-regular fa-moon fa-lg"></i>
+          </button>
+          <button class="toolbar__icons-login">
+            <span>로그인</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="sidebar__wrapper">
+          <header class="sidebar__header">
+            <button tpye="button" class="sidebar__header-button">
+              <i class="fa-solid fa-bars fa-lg"></i>
+            </button>
+          </header>
+          <section class="sidebar__section">
+            <div class="sidebar__service">
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-video fa-lg"></i>
+                <span class="sidebar__service-text">전체 라이브</span>
+              </a>
+              <a class="sidebar__service-list">
+                <i class="fa-regular fa-circle-play fa-lg"></i>
+                <span class="sidebar__service-text">다시보기</span>
+              </a>
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-table-cells-large fa-lg"></i>
+                <span class="sidebar__service-text">카테고리</span>
+              </a>
+            </div>
+            <nav class="sidebar__recommend">
+              <div class="sidebar__recommend-wrapper">
+                <div class="sidebar__recommend-header">
+                  <h2 class="sidebar__recommend-header-title">추천 채널</h2>
+                  <button class="sidebar__recommend-header-refresh">
+                    <i class="fa-solid fa-rotate-right"></i>
                   </button>
+                  <button class="sidebar__recommend-header-close">
+                    <i class="fa-solid fa-angle-up"></i>
+                  </button>
+                </div>
+                <div class="sidebar__recommend-list">
+                  <a class="sidebar__recommend-list-channel">
+                    <div class="sidebar__recommend-list-channel-profile">
+                      <i class="fa-solid fa-circle fa-2x"></i>
+                    </div>
+                    <div class="sidebar__recommend-list-channel-info">
+                      <span class="sidebar__recommend-list-channel-info-name"
+                        >ABCED</span
+                      >
+                      <span
+                        class="sidebar__recommend-list-channel-info-category"
+                        >abced</span
+                      >
+                    </div>
+                    <span class="sidebar__recommend-list-channel-count"
+                      >• 500</span
+                    >
+                  </a>
+                  <a class="sidebar__recommend-list-channel">
+                    <div class="sidebar__recommend-list-channel-profile">
+                      <i class="fa-solid fa-circle fa-2x"></i>
+                    </div>
+                    <div class="sidebar__recommend-list-channel-info">
+                      <span class="sidebar__recommend-list-channel-info-name"
+                        >ABCED</span
+                      >
+                      <span
+                        class="sidebar__recommend-list-channel-info-category"
+                        >abced</span
+                      >
+                    </div>
+                    <span class="sidebar__recommend-list-channel-count"
+                      >• 400</span
+                    >
+                  </a>
+                  <a class="sidebar__recommend-list-channel">
+                    <div class="sidebar__recommend-list-channel-profile">
+                      <i class="fa-solid fa-circle fa-2x"></i>
+                    </div>
+                    <div class="sidebar__recommend-list-channel-info">
+                      <span class="sidebar__recommend-list-channel-info-name"
+                        >ABCED</span
+                      >
+                      <span
+                        class="sidebar__recommend-list-channel-info-category"
+                        >abced</span
+                      >
+                    </div>
+                    <span class="sidebar__recommend-list-channel-count"
+                      >• 300</span
+                    >
+                  </a>
+                  <a class="sidebar__recommend-list-channel">
+                    <div class="sidebar__recommend-list-channel-profile">
+                      <i class="fa-solid fa-circle fa-2x"></i>
+                    </div>
+                    <div class="sidebar__recommend-list-channel-info">
+                      <span class="sidebar__recommend-list-channel-info-name"
+                        >ABCED</span
+                      >
+                      <span
+                        class="sidebar__recommend-list-channel-info-category"
+                        >abced</span
+                      >
+                    </div>
+                    <span class="sidebar__recommend-list-channel-count"
+                      >• 200</span
+                    >
+                  </a>
+                  <a class="sidebar__recommend-list-channel">
+                    <div class="sidebar__recommend-list-channel-profile">
+                      <i class="fa-solid fa-circle fa-2x"></i>
+                    </div>
+                    <div class="sidebar__recommend-list-channel-info">
+                      <span class="sidebar__recommend-list-channel-info-name"
+                        >ABCED</span
+                      >
+                      <span
+                        class="sidebar__recommend-list-channel-info-category"
+                        >abced</span
+                      >
+                    </div>
+                    <span class="sidebar__recommend-list-channel-count"
+                      >• 100</span
+                    >
+                  </a>
+                  <div class="sidebar__recommend-list-more">
+                    <button
+                      type="button"
+                      class="sidebar__recommend-list-morebtn"
+                    >
+                      더보기 <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="sidebar__service sidebar__service-go">
+              <h2 class="sidebar__service-title">
+                서비스 바로가기<i class="fa-solid fa-up-right-from-square"></i>
+              </h2>
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-gamepad fa-lg"></i>
+                <span class="sidebar__service-text">네이버 게임</span>
+              </a>
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-trophy fa-lg"></i>
+                <span class="sidebar__service-text">e스포츠</span>
+              </a>
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-crown fa-lg"></i>
+                <span class="sidebar__service-text">오리지널 시리즈</span>
+              </a>
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-desktop fa-lg"></i>
+                <span class="sidebar__service-text">PC 게임</span>
+              </a>
+              <a class="sidebar__service-list">
+                <i class="fa-solid fa-circle-exclamation fa-lg"></i>
+                <span class="sidebar__service-text">찌리릿 라운지</span>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="home">
+        <div class="home__layout">
+          <section class="home__layout-screen">
+            <div class="home__layout-screen-topbanner">
+              <div class="home__layout-screen-topbanner-list">
+                <div class="home__layout-screen-topbanner-list-component">
+                  <a class="home__layout-screen-topbanner-list-component-link">
+                    <div
+                      class="home__layout-screen-topbanner-list-component-link-text"
+                    >
+                      <div
+                        class="home__layout-screen-topbanner-list-component-link-text-area"
+                      >
+                        <span
+                          class="home__layout-screen-topbanner-list-component-link-text-area-title"
+                          >세계 최강 무술 대회</span
+                        >
+                        <div
+                          class="home__layout-screen-topbanner-list-component-link-text-area-description"
+                        >
+                          대회 1일차
+                        </div>
+                      </div>
+                      <div
+                        class="home__layout-screen-topbanner-list-component-link-text-date"
+                      >
+                        5월 1일 20:00
+                      </div>
+                    </div>
+                    <div
+                      class="home__layout-screen-topbanner-list-component-link-img"
+                    ></div>
+                  </a>
+                </div>
+                <div class="home__layout-screen-topbanner-list-component">
+                  <a class="home__layout-screen-topbanner-list-component-link">
+                    <div
+                      class="home__layout-screen-topbanner-list-component-link-text"
+                    >
+                      <div
+                        class="home__layout-screen-topbanner-list-component-link-text-area"
+                      >
+                        <span
+                          class="home__layout-screen-topbanner-list-component-link-text-area-title"
+                          >세계 최강 무술 대회</span
+                        >
+                        <div
+                          class="home__layout-screen-topbanner-list-component-link-text-area-description"
+                        >
+                          대회 1일차
+                        </div>
+                      </div>
+                      <div
+                        class="home__layout-screen-topbanner-list-component-link-text-date"
+                      >
+                        5월 1일 20:00
+                      </div>
+                    </div>
+                    <div
+                      class="home__layout-screen-topbanner-list-component-link-img"
+                    ></div>
+                  </a>
+                </div>
+                <div class="home__layout-screen-topbanner-list-component">
+                  <a class="home__layout-screen-topbanner-list-component-link">
+                    <div
+                      class="home__layout-screen-topbanner-list-component-link-text"
+                    >
+                      <div
+                        class="home__layout-screen-topbanner-list-component-link-text-area"
+                      >
+                        <span
+                          class="home__layout-screen-topbanner-list-component-link-text-area-title"
+                          >세계 최강 무술 대회</span
+                        >
+                        <div
+                          class="home__layout-screen-topbanner-list-component-link-text-area-description"
+                        >
+                          대회 1일차
+                        </div>
+                      </div>
+                      <div
+                        class="home__layout-screen-topbanner-list-component-link-text-date"
+                      >
+                        5월 1일 20:00
+                      </div>
+                    </div>
+                    <div
+                      class="home__layout-screen-topbanner-list-component-link-img"
+                    ></div>
+                  </a>
                 </div>
               </div>
             </div>
-          </nav>
-          <div class="sidebar__service sidebar__service-go">
-            <h2 class="sidebar__service-title">
-              서비스 바로가기<i class="fa-solid fa-up-right-from-square"></i>
-            </h2>
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-gamepad fa-lg"></i>
-              <span class="sidebar__service-text">네이버 게임</span>
-            </a>
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-trophy fa-lg"></i>
-              <span class="sidebar__service-text">e스포츠</span>
-            </a>
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-crown fa-lg"></i>
-              <span class="sidebar__service-text">오리지널 시리즈</span>
-            </a>
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-desktop fa-lg"></i>
-              <span class="sidebar__service-text">PC 게임</span>
-            </a>
-            <a class="sidebar__service-list">
-              <i class="fa-solid fa-circle-exclamation fa-lg"></i>
-              <span class="sidebar__service-text">찌리릿 라운지</span>
-            </a>
-          </div>
-        </section>
+
+            <div class="home__layout-screen-recommend"></div>
+            <a class="home__layout-screen-ad"></a>
+            <section class="home__layout-screen-component"></section>
+            <section class="home__layout-screen-component"></section>
+            <section class="home__layout-screen-component"></section>
+            <section class="home__layout-screen-component"></section>
+          </section>
+          <div class="home__layout-footer"></div>
+        </div>
       </div>
     </div>
-
     <script
       src="https://kit.fontawesome.com/47cc7f595b.js"
       crossorigin="anonymous"
