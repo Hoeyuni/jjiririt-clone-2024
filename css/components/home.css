@@ -75,3 +75,127 @@
   height: 100%;
   width: 133px;
 }
+
+.home__layout-screen-recommend {
+  margin-bottom: 24px;
+  border-radius: 12px;
+  height: 370px;
+  position: relative;
+  background-color: black;
+}
+
+.home__layout-screen-recommend-live {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 24px 30px 30px;
+  position: relative;
+}
+
+.home__layout-screen-recommend-live-header {
+  position: relative;
+  width: 100%;
+}
+
+.home__layout-screen-recommend-live-header-count {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.home__layout-screen-recommend-live-header-count-badge {
+  background-color: red;
+  height: 25px;
+  width: 55px;
+  border-radius: 5px;
+}
+
+.home__layout-screen-recommend-live-header-count-badge-live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  padding: 5px 5px;
+  color: white;
+  height: 13px;
+}
+
+.home__layout-screen-recommend-live-header-count-text {
+  color: red;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home__layout-screen-recommend-live-header-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 30px;
+  width: 400px;
+}
+
+.home__layout-screen-recommend-live-info {
+  bottom: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  gap: 0 30px;
+  width: 100%;
+}
+
+.home__layout-screen-recommend-live-info-now {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+}
+
+.home__layout-screen-recommend-live-info-now-img i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.home__layout-screen-recommend-live-info-now-info {
+  margin-left: 13px;
+}
+
+.home__layout-screen-recommend-live-info-now-info-name {
+  color: #dfe2ea;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  position: relative;
+}
+
+.home__layout-screen-recommend-live-info-now-info-category {
+  margin-top: 8px;
+  color: #1bb373;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+.home__layout-screen-recommend-live-info-list {
+  display: flex;
+}
+
+.home__layout-screen-recommend-live-info-list-component {
+  margin-left: 10px;
+  width: 106px;
+}
+
+.home__layout-screen-recommend-live-info-list-component-live {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  position: relative;
+}
