@@ -245,9 +245,18 @@
 .home__layout-screen-component-list-stream-area-live {
   padding-top: 56.25%;
   display: block;
-  background-color: #f5f5f5;
   border-radius: 12px;
   position: relative;
+}
+
+.home__layout-screen-component-list-stream-area-live-img {
+  border-radius: 13px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  box-sizing: border-box;
 }
 
 .home__layout-screen-component-list-stream-area-live-count {
@@ -327,4 +336,32 @@
   display: inline-block;
   width: 100%;
   padding: 3px 5px;
+}
+
+.home__layout-screen-component-more {
+  align-items: center;
+  display: flex;
+  margin-top: 38px;
+  position: relative;
+}
+
+.home__layout-screen-component-more::before,
+.home__layout-screen-component-more::after {
+  content: "";
+  flex: 1 1;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.home__layout-screen-component-morebtn {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 600;
+  height: 29px;
+  margin: 0 20px;
+  padding: 0 14px 0 20px;
+  position: relative;
 }
