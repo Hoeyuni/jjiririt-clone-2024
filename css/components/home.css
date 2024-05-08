@@ -365,3 +365,38 @@
   padding: 0 14px 0 20px;
   position: relative;
 }
+
+.home__layout-screen-component-category-list {
+  margin-top: 15px;
+}
+
+.home__layout-screen-component-category-list-stream {
+  display: flex;
+  gap: 0 14px;
+  width: 100%;
+}
+
+.home__layout-screen-component-category-list-stream-item {
+  width: calc(14.28571% - 12px);
+}
+
+.home__layout-screen-component-category-list-stream-item-area {
+  display: block;
+}
+
+.home__layout-screen-component-category-list-stream-item-area-img {
+  border-radius: 10px;
+  padding-top: 133.3333333333%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.home__layout-screen-component-category-list-stream-item-area-img img {
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  box-sizing: border-box;
+}
