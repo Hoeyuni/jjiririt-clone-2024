@@ -400,3 +400,51 @@
   position: absolute;
   box-sizing: border-box;
 }
+
+.home__layout-screen-component-category-list-stream-item-area-info {
+  margin-top: 17px;
+  padding: 0 3px;
+}
+
+.home__layout-screen-component-category-list-stream-item-area-info-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.home__layout-screen-component-category-list-stream-item-area-info-title-count {
+  color: gray;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.home__layout-footer {
+  margin-top: 50px;
+}
+
+.home__layout-footer-area {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 30px;
+  padding: 25px 0 85px;
+  text-align: center;
+}
+
+.home__layout-footer-area-list-text {
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 11px 5px 10px;
+  position: relative;
+}
+
+.home__layout-footer-area-list-text::after {
+  background-color: gray;
+  top: 7px;
+  bottom: 7px;
+  right: 0;
+  width: 1px;
+  content: "";
+  position: absolute;
+}
