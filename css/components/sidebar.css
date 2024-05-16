@@ -6,6 +6,7 @@
 }
 
 .sidebar__wrapper {
+  background-color: white;
   display: flex;
   flex-direction: column;
   width: 100%;
